@@ -1,0 +1,352 @@
+/*le ponemos un fondo a nuestra cabecera*/
+header{
+    background-color:#D67272 ;
+}
+
+/*situamos nuestro logo de la empresa*/
+.encabezado img{
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+/*le quitamos ña decoracion a nuestro apartado de navegacion y lo centramos*/
+nav{
+    text-decoration: none;
+    text-align: center;
+}
+
+/*selecionamos los link y los ponemos a nuestro gusto*/
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    margin: 130px;
+    font-family: "Raleway",sans-serif;
+}
+
+/*le ponemos un hover para cuando estemos encima de nuestro enlace, se cambie de color*/
+nav a:hover{
+    color: white;
+}
+
+/*situamos ya nuestra primera imagen que a la vez es un enlace a nuestra pagina de productos*/
+.imagen-cabecera img{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+/*posicionamos nuestro texto de intruduccion y le añadimos tamaño,letra diferente y color*/
+.introducción{
+    position: relative;
+    font-size:x-large;
+    width: 1000px;
+    text-align: center;
+    margin-left: 25%;
+    font-family: "Raleway",sans-serif;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    color: #5C5C5C;
+}
+
+/*colocamos y centramos nuestras siguientes imagenes que a la vez seran enlaces que nos lleven a los campos que nos marcan*/
+.imagenes-inicio img{
+    width: 600px;
+    margin: auto;
+    margin-left: 1%;
+}
+
+/*decoramos nuestro apartado de preguntas frecuentes gracias a details*/
+details{
+    
+    background-color:#F9BABA ;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: "Raleway",sans-serif;
+    color: #5C5C5C;
+}
+details p{
+    text-align: justify;
+}
+.container{
+    position: relative;
+    margin-top: 120px;
+    width: 1200px;
+    margin-left:330px;
+    margin-bottom: 80px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Raleway",sans-serif;
+    color: #5C5C5C;
+}
+
+
+/*empezamos a decorar nuestro pie de pagina con un fondo,tipo de letra y color*/
+footer{
+    background-color:#333;
+    color:#fff;
+    font-family: "Raleway", sans-serif;
+}
+.footer-container{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+
+
+.sobre-nosotros{
+    margin-top: 20px;
+}
+.sobre-nosotros h3{
+    text-align: center;
+}
+.sobre-nosotros {
+    margin: auto;
+    width: 400px;
+    margin-bottom:100px;
+}
+
+.enlaces-rapidos a{
+    text-decoration: none;
+    color: white;
+}
+
+.contacto-footer{
+    margin-left: 50px;
+}
+
+
+.redes-sociales{
+    margin-left: 60px;
+}
+.redes-sociales a img{
+    width:50px;
+}
+
+/*le ponemos copyright*/
+.copy{
+    text-align: center;
+    font-family: initial;
+}
+
+
+/*decoramos nuestro parrafo de aviso legal con letra mas grande y otro tipo de letra*/
+.aviso-legal{
+    font-size: medium;
+    font-family: "Ralewey",sans-serif;
+}
+
+/*empezamos a decorar las imagenes de summer sales*/
+.summer-sales{
+    font-size: xx-large;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #5C5C5C;
+    margin-top: 100px;
+}
+
+.summer img{
+    position: relative;
+    width: 400px;
+    margin: 10px;
+}
+.sales img{
+    position: relative;
+    width: 400px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.summer{
+    text-align: center;
+}
+.sales{
+    text-align: center;
+}
+
+/*situamos los precios debajo de las imagenes*/
+.precios1{
+    text-align: center;
+}
+.precios1 li{
+    display: inline;
+    margin: 150px;
+    font-family: "raleway",sans-serif;
+}
+.precios2{
+    text-align: center;
+}
+
+.precios2 li{
+    display: inline;
+    margin: 140px;
+    font-family: "Raleway",sans-serif;
+}
+/*situamos las siguientes imagenes*/
+.ropamujer{
+    font-size: xx-large;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #5C5C5C;
+    margin-top: 100px
+}
+
+.ropa-mujer1 img{
+    position:relative;
+    width: 400px;
+    margin: 10px;
+    margin-top: 50px;
+}
+.ropa-mujer1{
+    text-align: center;
+}
+
+.ropa-mujer2 img{
+    position:relative;
+    width: 400px;
+    margin: 10px;
+    margin-top: 50px;
+}
+.ropa-mujer2{
+    text-align: center;
+}
+
+/*y ponemos los siguientes precios debajo de las imagenes*/
+.precios3{
+    text-align: center;
+}
+
+.precios3 li{
+    display: inline;
+    margin: 130px;
+    font-family: "Raleway",sans-serif;
+}
+
+.precios4{
+    text-align:center;
+}
+.precios4 li{
+    display: inline;
+    margin: 140px;
+    font-family: "Raleway",sans-serif;
+}
+/*SITUAMOS LAS SIGUIENTES IMAGENES*/
+.calzado{
+    font-size: xx-large;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #5C5C5C;
+    margin-top: 100px
+}
+
+.zapatos-mujer img{
+    position: relative;
+    width: 400px;
+    margin: 10px;
+}
+.zapatos-mujer{
+    text-align: center;
+}
+
+.zapatos-mujer2 img{
+    position: relative;
+    width: 400px;
+    margin: 10px;
+}
+.zapatos-mujer2{
+    text-align: center;
+}
+/*LES AÑADIMOS LOS PRECIOS*/
+.precios5{
+    text-align: center;
+}
+.precios5 li{
+    display: inline;
+    margin: 140px;
+    font-family: "Raleway",sans-serif;
+}
+
+.precios6{
+    text-align: center;
+}
+.precios6 li{
+    display: inline;
+    margin: 140px;
+    font-family: "Raleway",sans-serif;
+}
+/*SITUAMOS LAS SIGUIENTES IMAGENES*/
+.bolsos-mujer{
+    font-size: xx-large;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #5C5C5C;
+    margin-top: 100px
+}
+.bolsos img{
+    position: relative;
+    width: 400px;
+    margin: 10px; 
+}
+.bolsos{
+    text-align: center;
+}
+
+.bolsos2 img{
+    position: relative;
+    width: 400px;
+    margin: 10px; 
+}
+.bolsos2{
+    text-align: center;
+}
+/*Y LES COLOCAMOS LOS PRECIOS*/
+.precios7{
+    text-align: center;
+}
+.precios7 li{
+    display: inline;
+    margin: 140px;
+    font-family: "Raleway",sans-serif;
+}
+
+.precios8{
+    text-align: center;
+}
+.precios8 li{
+    display: inline;
+    margin: 140px;
+    font-family: "Raleway",sans-serif;
+}
+
+.presupuesto{
+    font-family: "Raleway",sans-serif;
+    text-align:justify;
+    color: #5C5C5C;
+}
+
+.presupuesto input{
+    display:block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contactar ul{
+    position: relative;
+    font-family: "Raleway",sans-serif;
+    margin-bottom: 100px;
+    list-style: none;
+}
+.contactar{
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
